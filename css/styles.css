@@ -109,7 +109,7 @@ body {
   gap: 25px;
   grid-template-columns: 40rem;
   justify-content: center;
-  margin: 0 0 25px 0;
+  /* margin: 0 0 25px 0; */
   position: relative;
   top: 96px;
 }
@@ -123,6 +123,10 @@ body {
 
 .grid__item-one {
   height: 50rem;
+}
+
+.grid__item-five {
+  margin-bottom: 25px;
 }
 
 @media (min-width: 576px) {
