@@ -32,6 +32,11 @@ body {
   text-decoration: none;
 }
 
+.link--feature {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
 /* Navigation */
 
 .nav {
