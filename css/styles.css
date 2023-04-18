@@ -116,6 +116,10 @@ body {
   height: 40rem;
 }
 
+.grid__item-one {
+  height: 50rem;
+}
+
 @media (min-width: 576px) {
   .grid-1x5 {
     grid-template-columns: 50rem;
@@ -124,9 +128,6 @@ body {
   .grid__item {
     height: 50rem;
   }
-}
-
-@media (min-width: 768px) {
 }
 
 @media (min-width: 992px) {
