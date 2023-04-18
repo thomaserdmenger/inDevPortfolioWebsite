@@ -141,7 +141,6 @@ body {
   }
 
   .grid__item-one {
-    /* width: 40rem; */
     justify-self: end;
   }
 
@@ -257,4 +256,27 @@ body {
   background: var(--color-text);
   border: 1px solid var(--color-border);
   color: var(--color-primary);
+}
+
+/* Features */
+
+.feature-box {
+  border: 1px solid var(--color-primary);
+  height: 500px;
+  width: 500px;
+}
+
+.feature__header {
+  background-color: var(--color-primary);
+  height: 10%;
+  opacity: 80%;
+  position: absolute;
+  width: 500px;
+}
+
+.feature__body {
+  background-image: url('../images/temp.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
