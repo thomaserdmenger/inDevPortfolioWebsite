@@ -480,6 +480,10 @@ body {
   width: 100%;
 }
 
+.feature__body--one {
+  background-image: url('../images/letters.jpg');
+}
+
 .grid__projects-image {
   background-image: url('../images/letters.jpg');
   background-size: cover;
