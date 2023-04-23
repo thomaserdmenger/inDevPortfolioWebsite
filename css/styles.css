@@ -229,6 +229,11 @@ body {
     grid-row: 1 / 3;
   }
 
+  .grid__item-one--about {
+    width: 60rem;
+    grid-row: 2 / 3;
+  }
+
   .grid__feature-heading {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
@@ -300,6 +305,10 @@ body {
     justify-self: end;
     grid-row: 1 / 3;
     height: 55rem;
+  }
+
+  .grid__item-one--about {
+    width: 50rem;
   }
 
   .grid__feature-container {
@@ -594,6 +603,11 @@ body {
     width: 90rem;
   }
 
+  .grid__projects-text--about {
+    height: 48.5rem;
+    width: 90rem;
+  }
+
   .grid__project-icons {
     height: 10rem;
     width: 90rem;
@@ -625,7 +639,8 @@ body {
 }
 
 @media screen and (min-width: 1500px) {
-  .footer-container--projects {
+  .footer-container--projects,
+  .footer-container--about {
     top: 30rem;
   }
 }
